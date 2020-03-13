@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for test123 project
+# Scrapy settings for train_sprapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'test123'
+BOT_NAME = 'train_sprapy'
 
-SPIDER_MODULES = ['test123.spiders']
-NEWSPIDER_MODULE = 'test123.spiders'
+SPIDER_MODULES = ['train_sprapy.spiders']
+NEWSPIDER_MODULE = 'train_sprapy.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'test123 (+http://www.yourdomain.com)'
+#USER_AGENT = 'train_sprapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'test123.middlewares.Test123SpiderMiddleware': 543,
+#    'train_sprapy.middlewares.Test123SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'test123.middlewares.Test123DownloaderMiddleware': 543,
+#    'train_sprapy.middlewares.Test123DownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'test123.pipelines.JsonWriterPipeline': 300,
+    'train_sprapy.pipelines.JsonWriterPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

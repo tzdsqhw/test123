@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from test123.items import DarmaItem
+from train_sprapy.items import DarmaItem
 
 class TestSpider(scrapy.Spider):
     name = 'test'
